@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "paths": {
+      "@src/*": ["./*"],
+      "@usecase/*": ["./usecase/*"],
+      "@repository/*": ["./repository/*"],
+      "@handler/*": ["./delivery/api/handler/*"],
+      "@entity/*": ["./domain/entity/*"],
+      "@driver/*": ["./driver/*"]
+    }
+  }
+}
